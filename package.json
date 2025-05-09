@@ -1,9 +1,13 @@
 {
   "name": "vuepress-plugin-llms",
   "description": "📜 VuePress plugin for generating documentation friendly to Large Language Models (LLMs) | 📜 VuePress 插件，用于生成对大语言模型(LLMs)友好的文档。",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
-  "author": "https://github.com/guoqw7",
+  "author": {
+		"name": "guoqw7 | 郭大发财",
+		"email": "guoqw7@gmail.com",
+		"url": "https://github.com/guoqw7 | https://a.guoqw.com"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guoqw7/vuepress-plugin-llms.git"

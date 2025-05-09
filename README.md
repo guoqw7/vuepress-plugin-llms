@@ -42,13 +42,13 @@ vuepress-plugin-llms/
 
 ```bash
 # npm
-npm install vuepress-plugin-llms
+npm install -D vuepress-plugin-llms
 
 # yarn
-yarn add vuepress-plugin-llms
+yarn add -D vuepress-plugin-llms
 
 # pnpm
-pnpm add vuepress-plugin-llms
+pnpm add -D vuepress-plugin-llms
 ```
 
 ## 使用方法 | Usage
