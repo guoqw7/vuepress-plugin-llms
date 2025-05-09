@@ -1,0 +1,59 @@
+{
+  "name": "vuepress-plugin-llms",
+  "description": "📜 VuePress plugin for generating documentation friendly to Large Language Models (LLMs) | 📜 VuePress 插件，用于生成对大语言模型(LLMs)友好的文档。",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "https://github.com/guoqw7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoqw7/vuepress-plugin-llms.git"
+  },
+  "keywords": [
+    "llms.txt",
+    "llms-full.txt",
+    "vuepress",
+    "plugin",
+    "插件",
+    "vuepress-plugin",
+    "llms",
+    "documentation",
+    "ai"
+  ],
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "import": "./lib/index.js",
+    "require": "./lib/cjs/index.js"
+  },
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-title": "^1.0.2",
+    "millify": "^6.1.0",
+    "minimatch": "^10.0.1",
+    "picocolors": "^1.1.1",
+    "remark": "^15.0.1",
+    "remark-frontmatter": "^5.0.0",
+    "tokenx": "^0.4.1",
+    "unist-util-remove": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@vuepress/core": "^2.0.0-rc.0",
+    "typescript": "^5.8.3",
+    "vuepress": "^2.0.0-rc.0"
+  },
+  "peerDependencies": {
+    "@vuepress/core": "^2.0.0-rc.0",
+    "vuepress": "^2.0.0-rc.0"
+  }
+} 
